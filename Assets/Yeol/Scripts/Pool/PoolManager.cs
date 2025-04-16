@@ -3,33 +3,37 @@ using UnityEngine;
 
 public class PoolManager : MonoBehaviour
 {
-    public static PoolManager Instance { get; private set; }
-    private Dictionary<string, Pool> _pools = new();
+    #region Variables
+    public GameObject[] prefabs;
+    List<GameObject>[] pools;
+    #endregion
 
     private void Awake()
     {
-        if (Instance == null) Instance = this;
-        else Destroy(gameObject);
-    }
-    public void CreatePool(string key, PooledObject prefab, int count)
-    {
-        if(!_pools.ContainsKey(key))
+        pools = new List<GameObject>[prefabs.Length];
+        for (int index = 0; index < pools.Length; index++)
         {
-            var pool = new Pool(prefab, count, this.transform);
-            _pools.Add(key, pool);
+            pools[index] = new List<GameObject>();
         }
     }
-    public PooledObject Spawn(string key)
+    public GameObject Get(int index)
     {
-        if (_pools.TryGetValue(key, out var pool))
+        GameObject select = null;
+        foreach(GameObject item in pools[index])
         {
-            return pool.Get();
+            if(!item.activeSelf)
+            {
+                select = item;
+                select.SetActive(true);
+                break;
+            }
         }
-        Debug.LogError($"[PoolManager] No pool with key: {key}");
-        return null;
-    }
-    public void Despawn(PooledObject obj)
-    {
-        obj.ReturnToPool();
+        if(!select)
+        {
+            select = Instantiate(prefabs[index], transform);
+            pools[index].Add(select);
+        }
+        return select;
+
     }
 }
