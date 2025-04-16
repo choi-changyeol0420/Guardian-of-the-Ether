@@ -1,0 +1,1447 @@
+fileFormatVersion: 2
+guid: 7dfd376b719b9ca409b957c985abfd23
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8075801507503096248
+    second: fantasy_weapons_pack1_noglow_0
+  - first:
+      213: 8770648957516927140
+    second: fantasy_weapons_pack1_noglow_1
+  - first:
+      213: -5673701286640296121
+    second: fantasy_weapons_pack1_noglow_2
+  - first:
+      213: 3378347991426160323
+    second: fantasy_weapons_pack1_noglow_3
+  - first:
+      213: -5109965981138906450
+    second: fantasy_weapons_pack1_noglow_4
+  - first:
+      213: -3104371434960029888
+    second: fantasy_weapons_pack1_noglow_5
+  - first:
+      213: -5978817279210448657
+    second: fantasy_weapons_pack1_noglow_6
+  - first:
+      213: 1286731737826641711
+    second: fantasy_weapons_pack1_noglow_7
+  - first:
+      213: 9012836334389053057
+    second: fantasy_weapons_pack1_noglow_8
+  - first:
+      213: 8914826856875883889
+    second: fantasy_weapons_pack1_noglow_9
+  - first:
+      213: -908193553424497369
+    second: fantasy_weapons_pack1_noglow_10
+  - first:
+      213: 4416722896547744159
+    second: fantasy_weapons_pack1_noglow_11
+  - first:
+      213: 7321600525211021936
+    second: fantasy_weapons_pack1_noglow_12
+  - first:
+      213: 624905522764524115
+    second: fantasy_weapons_pack1_noglow_13
+  - first:
+      213: -7913282649892724575
+    second: fantasy_weapons_pack1_noglow_14
+  - first:
+      213: 4545246964165581679
+    second: fantasy_weapons_pack1_noglow_15
+  - first:
+      213: 5938303206935319879
+    second: fantasy_weapons_pack1_noglow_16
+  - first:
+      213: -7933156217280621415
+    second: fantasy_weapons_pack1_noglow_17
+  - first:
+      213: 5851858445750132973
+    second: fantasy_weapons_pack1_noglow_18
+  - first:
+      213: -3614409095690788222
+    second: fantasy_weapons_pack1_noglow_19
+  - first:
+      213: 8031301276238402870
+    second: fantasy_weapons_pack1_noglow_20
+  - first:
+      213: -9152062195853024025
+    second: fantasy_weapons_pack1_noglow_21
+  - first:
+      213: 4085913127274826449
+    second: fantasy_weapons_pack1_noglow_22
+  - first:
+      213: -1825138051310852068
+    second: fantasy_weapons_pack1_noglow_23
+  - first:
+      213: 5889784266166054472
+    second: fantasy_weapons_pack1_noglow_24
+  - first:
+      213: 7106835386984911030
+    second: fantasy_weapons_pack1_noglow_25
+  - first:
+      213: -8896891191807630859
+    second: fantasy_weapons_pack1_noglow_26
+  - first:
+      213: 202346336844461379
+    second: fantasy_weapons_pack1_noglow_27
+  - first:
+      213: -6603980809482973791
+    second: fantasy_weapons_pack1_noglow_28
+  - first:
+      213: 3361551795679599956
+    second: fantasy_weapons_pack1_noglow_29
+  - first:
+      213: 7213790945928488399
+    second: fantasy_weapons_pack1_noglow_30
+  - first:
+      213: 4853104127743610197
+    second: fantasy_weapons_pack1_noglow_31
+  - first:
+      213: 2380720594811387414
+    second: fantasy_weapons_pack1_noglow_32
+  - first:
+      213: -860468637692662033
+    second: fantasy_weapons_pack1_noglow_33
+  - first:
+      213: -4678030089262491546
+    second: fantasy_weapons_pack1_noglow_34
+  - first:
+      213: -8973690583857534363
+    second: fantasy_weapons_pack1_noglow_35
+  - first:
+      213: -1259693266029593127
+    second: fantasy_weapons_pack1_noglow_36
+  - first:
+      213: 6900568865924405233
+    second: fantasy_weapons_pack1_noglow_37
+  - first:
+      213: -10236232010091077
+    second: fantasy_weapons_pack1_noglow_38
+  - first:
+      213: 4469298566561671875
+    second: fantasy_weapons_pack1_noglow_39
+  - first:
+      213: -6099013867694818596
+    second: fantasy_weapons_pack1_noglow_40
+  - first:
+      213: 5222653405772810565
+    second: fantasy_weapons_pack1_noglow_41
+  - first:
+      213: 7294224229972459435
+    second: fantasy_weapons_pack1_noglow_42
+  - first:
+      213: -723065633803069625
+    second: fantasy_weapons_pack1_noglow_43
+  - first:
+      213: 6540500744442302489
+    second: fantasy_weapons_pack1_noglow_44
+  - first:
+      213: 6907854856300744537
+    second: fantasy_weapons_pack1_noglow_45
+  - first:
+      213: -322541471151750501
+    second: fantasy_weapons_pack1_noglow_46
+  - first:
+      213: 1811892132519109660
+    second: fantasy_weapons_pack1_noglow_47
+  - first:
+      213: 6410191058157774608
+    second: fantasy_weapons_pack1_noglow_48
+  - first:
+      213: 5290268421124316321
+    second: fantasy_weapons_pack1_noglow_49
+  - first:
+      213: 3867448663352872149
+    second: fantasy_weapons_pack1_noglow_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 129
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc192a3cfa9d334b829d467f65996f5
+      internalID: -297104380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 129
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb57ceef4a7cc7a4eb5a6abb273c2a78
+      internalID: 1697638732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 133
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f90d05200b0bd48837e6c3b82128a7
+      internalID: 1854929083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 134
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8908e6aae968ccd4aa19c3fd37377359
+      internalID: -770121721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 130
+        width: 29
+        height: 29
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb65cf428f18fc46be990a31afac6ed
+      internalID: 1097968643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 129
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00553ffac99f40145a0e6ccaa7dd7523
+      internalID: 441903951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 131
+        width: 30
+        height: 26
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda6c2322647ad5489bb549de5550429
+      internalID: 1317235839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 134
+        width: 22
+        height: 22
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87112c9d05ac84d42bd22c0203c6909e
+      internalID: 1461224802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_8
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 134
+        width: 21
+        height: 19
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4396fa8cd80ef48428c8a6f9f293c747
+      internalID: 1483589252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 129
+        width: 20
+        height: 30
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff3015e10cae3a459ed273624a699dd
+      internalID: 807690962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 97
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308cc825b877a3445985343b84e7cda6
+      internalID: 2015820637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 97
+        width: 29
+        height: 30
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9585a260774237e4aa667d9988ccf5f0
+      internalID: 726327400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_12
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 101
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84182970434e4f7478cc8c5024657208
+      internalID: 117444781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_13
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 98
+        width: 23
+        height: 26
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9252702cbe05b0d4aa516eb50b2db67e
+      internalID: -155633428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_14
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 97
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7940bc396988a2a4aaf998f4f948cb74
+      internalID: 354895112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_15
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 98
+        width: 30
+        height: 29
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b49497fb0e5694a892589f23e04d35
+      internalID: -1319685341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_16
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 98
+        width: 30
+        height: 29
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d29655fb5773b649a1ad9a2a794037a
+      internalID: 448861618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_17
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 102
+        width: 23
+        height: 23
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50dbb4db1ecb560429c5c0c78d9aa1c9
+      internalID: 1834398546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_18
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 101
+        width: 25
+        height: 22
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036503f768889844f887c7e7b1c2859c
+      internalID: 756890278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_19
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 102
+        width: 23
+        height: 23
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3ecb6fc246bb94d8b832169b16d44b
+      internalID: 1149669168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 67
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb61bfe49dd08449af9d7a7d966bd11
+      internalID: 636746797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_21
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 69
+        width: 27
+        height: 22
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df660b1175fd684ab0ec17e5fa4e3d1
+      internalID: -770456586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_22
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 65
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f61bc016507b44b8601b6f3cce3d73
+      internalID: -667243840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_23
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 70
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14fb78c95516ae6458ff7004ff471dd9
+      internalID: 1392347238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_24
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 66
+        width: 27
+        height: 27
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04de30c3a54aae42b7a0bac5df4841b
+      internalID: 1551612742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_25
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 65
+        width: 28
+        height: 28
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67701ad46ad6857488b648db7f960195
+      internalID: -1057337657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_26
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 68
+        width: 30
+        height: 25
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478adc11cdd4b114eb6fe83f65cd419f
+      internalID: -302185352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_27
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 69
+        width: 22
+        height: 22
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829a274a3910149449190daa34739dc7
+      internalID: -94830964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_28
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 70
+        width: 21
+        height: 19
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da6e15163f63554ca4c37c334af25a2
+      internalID: -611136871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_29
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 67
+        width: 22
+        height: 26
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b293d9d2d96f8542afbcf98daf3173a
+      internalID: 1699948095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_30
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 34
+        width: 25
+        height: 28
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658de107c6f48774e81ce4c0fac1d7ad
+      internalID: -1385744229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_31
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 36
+        width: 30
+        height: 25
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48777e57bc75434baad9cd44117655b
+      internalID: -781795325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_32
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 35
+        width: 30
+        height: 27
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100d9a2c701555d48bf9bafe1bb16ac2
+      internalID: 2031357635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_33
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 39
+        width: 19
+        height: 18
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1623e1ef8d57534e989847f80bf02b7
+      internalID: 694093031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_34
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 33
+        width: 27
+        height: 28
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1b696e0a9e279458010d17abcb6841
+      internalID: 724063408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_35
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 33
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fddbbc1aedb214a88a425c0501bade
+      internalID: -292249429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_36
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 37
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac26f9264e34f8b45812e6c915503ae3
+      internalID: 1058847038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_37
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 38
+        width: 19
+        height: 19
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683f23a1349416843aa9da2d038b1b58
+      internalID: -1298664782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_38
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 38
+        width: 21
+        height: 19
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8791e18b45da134478f512a854bc26e3
+      internalID: 112723546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_39
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 37
+        width: 16
+        height: 24
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f5dfaba9cc2a34d8303e7105f18aab
+      internalID: 487265675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8913d79870ffd9f42bcbdc2f9d99110d
+      internalID: 2117628628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_41
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831e832da922e31439672cd1c6aeb112
+      internalID: -525864231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_42
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 4
+        width: 30
+        height: 25
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e0ff4f528d73045aa5df03684cbe92
+      internalID: 427919001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_43
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 7
+        width: 21
+        height: 21
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f130e10e2c6b6004da30188bc5c55305
+      internalID: 162154156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_44
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 4
+        width: 26
+        height: 26
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365f8e137eb1d68469e82171170c42cb
+      internalID: 361032079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_45
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1
+        width: 30
+        height: 30
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6d38de046d2854981827f1408816c4
+      internalID: 1051082731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_46
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1
+        width: 29
+        height: 29
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8266399795a65459f4a7dc3f1a6455
+      internalID: -815154256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_48
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 3
+        width: 25
+        height: 25
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6670322bff485e4d9125423f28aa89d
+      internalID: 1878823383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_49
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 6
+        width: 22
+        height: 20
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bce7bc05402ec4cb33e3491d086fce
+      internalID: -74045328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fantasy_weapons_pack1_noglow_50
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 3
+        width: 24
+        height: 25
+      alignment: 9
+      pivot: {x: 3.94, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3414c6cf477b1b746b3ce4fe2cfe0a94
+      internalID: -1358760433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 96b600950a3396e40b8167e726ff504e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fantasy_weapons_pack1_noglow_0: -297104380
+      fantasy_weapons_pack1_noglow_1: 1697638732
+      fantasy_weapons_pack1_noglow_10: 2015820637
+      fantasy_weapons_pack1_noglow_11: 726327400
+      fantasy_weapons_pack1_noglow_12: 117444781
+      fantasy_weapons_pack1_noglow_13: -155633428
+      fantasy_weapons_pack1_noglow_14: 354895112
+      fantasy_weapons_pack1_noglow_15: -1319685341
+      fantasy_weapons_pack1_noglow_16: 448861618
+      fantasy_weapons_pack1_noglow_17: 1834398546
+      fantasy_weapons_pack1_noglow_18: 756890278
+      fantasy_weapons_pack1_noglow_19: 1149669168
+      fantasy_weapons_pack1_noglow_2: 1854929083
+      fantasy_weapons_pack1_noglow_20: 636746797
+      fantasy_weapons_pack1_noglow_21: -770456586
+      fantasy_weapons_pack1_noglow_22: -667243840
+      fantasy_weapons_pack1_noglow_23: 1392347238
+      fantasy_weapons_pack1_noglow_24: 1551612742
+      fantasy_weapons_pack1_noglow_25: -1057337657
+      fantasy_weapons_pack1_noglow_26: -302185352
+      fantasy_weapons_pack1_noglow_27: -94830964
+      fantasy_weapons_pack1_noglow_28: -611136871
+      fantasy_weapons_pack1_noglow_29: 1699948095
+      fantasy_weapons_pack1_noglow_3: -770121721
+      fantasy_weapons_pack1_noglow_30: -1385744229
+      fantasy_weapons_pack1_noglow_31: -781795325
+      fantasy_weapons_pack1_noglow_32: 2031357635
+      fantasy_weapons_pack1_noglow_33: 694093031
+      fantasy_weapons_pack1_noglow_34: 724063408
+      fantasy_weapons_pack1_noglow_35: -292249429
+      fantasy_weapons_pack1_noglow_36: 1058847038
+      fantasy_weapons_pack1_noglow_37: -1298664782
+      fantasy_weapons_pack1_noglow_38: 112723546
+      fantasy_weapons_pack1_noglow_39: 487265675
+      fantasy_weapons_pack1_noglow_4: 1097968643
+      fantasy_weapons_pack1_noglow_40: 2117628628
+      fantasy_weapons_pack1_noglow_41: -525864231
+      fantasy_weapons_pack1_noglow_42: 427919001
+      fantasy_weapons_pack1_noglow_43: 162154156
+      fantasy_weapons_pack1_noglow_44: 361032079
+      fantasy_weapons_pack1_noglow_45: 1051082731
+      fantasy_weapons_pack1_noglow_46: -815154256
+      fantasy_weapons_pack1_noglow_47: 213594028
+      fantasy_weapons_pack1_noglow_48: 1878823383
+      fantasy_weapons_pack1_noglow_49: -74045328
+      fantasy_weapons_pack1_noglow_5: 441903951
+      fantasy_weapons_pack1_noglow_50: -1358760433
+      fantasy_weapons_pack1_noglow_6: 1317235839
+      fantasy_weapons_pack1_noglow_7: 1461224802
+      fantasy_weapons_pack1_noglow_8: 1483589252
+      fantasy_weapons_pack1_noglow_9: 807690962
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
