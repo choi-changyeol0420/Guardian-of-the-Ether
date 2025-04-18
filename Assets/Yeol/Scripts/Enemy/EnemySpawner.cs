@@ -3,7 +3,7 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     #region Variables
-    public float spawnInterval = 2f;
+    public SpawnData[] data;
     public Transform[] spawnPoints;
     public Transform playerPos;
 
@@ -12,7 +12,7 @@ public class EnemySpawner : MonoBehaviour
     private void Update()
     {
         timer += Time.deltaTime;
-        if(timer > spawnInterval)
+        if(timer > data[GameManager.Instance.enemyLevel].spriteTime)
         {
             timer = 0;
             Spawn();
@@ -22,5 +22,13 @@ public class EnemySpawner : MonoBehaviour
     {
         GameObject enemy = GameManager.Instance.pool.Get(0);
         enemy.transform.position = spawnPoints[Random.Range(1, spawnPoints.Length)].position;
+        enemy.GetComponent<EnemyController>().Init(data[GameManager.Instance.enemyLevel]);
     }
+    [System.Serializable]
+    public class SpawnData
+    {
+        public float spriteTime;
+        public float health;
+        public float speed;
+    }    
 }

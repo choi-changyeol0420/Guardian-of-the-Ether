@@ -34,6 +34,5 @@ public class PoolManager : MonoBehaviour
             pools[index].Add(select);
         }
         return select;
-
     }
 }

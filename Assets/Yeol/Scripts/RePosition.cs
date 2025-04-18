@@ -12,7 +12,7 @@ public class RePosition : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Area")) return;
+        if (!collision.CompareTag("Area")) return;
         Vector3 playerDir = GameManager.Instance.player.moveInput;
         switch(transform.tag)
         {

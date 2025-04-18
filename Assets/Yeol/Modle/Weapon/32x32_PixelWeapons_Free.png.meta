@@ -394,6 +394,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -909,7 +922,7 @@ TextureImporter:
         serializedVersion: 2
         x: 323
         y: 358
-        width: 13
+        width: 25
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -921,28 +934,6 @@ TextureImporter:
       bones: []
       spriteID: 2903096c4548be546bd9472f9db503f9
       internalID: 1490419081
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 32x32_PixelWeapons_Free_24
-      rect:
-        serializedVersion: 2
-        x: 338
-        y: 358
-        width: 10
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ccd55a6faddaeb49bf95715da1f931b
-      internalID: -754623660
       vertices: []
       indices: 
       edges: []
