@@ -15,6 +15,10 @@ public class Weapon : MonoBehaviour
     {
         this.damage = damage;
         this.per = per;
+        if(per == -1)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
         if(per > -1)
         {
             rigid.linearVelocity = dir.normalized * 8f;

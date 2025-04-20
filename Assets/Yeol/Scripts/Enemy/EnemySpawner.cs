@@ -11,6 +11,7 @@ public class EnemySpawner : MonoBehaviour
     #endregion
     private void Update()
     {
+        if (!GameManager.Instance.isLive) return;
         timer += Time.deltaTime;
         if(timer > data[GameManager.Instance.enemyLevel].spriteTime)
         {

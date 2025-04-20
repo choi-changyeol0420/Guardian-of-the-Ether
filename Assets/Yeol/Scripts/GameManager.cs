@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     public int enemyLevel;
     [Header("# Player Info")]
+    public bool isLive;
     public int health;
     public int maxHealth = 100;
     public int level;
@@ -25,6 +26,7 @@ public class GameManager : MonoBehaviour
 
     //Weapon
     public List<WeaponSprite> weapons;
+    public LevelUp uiLevelUp;
     #endregion
     private void Awake()
     {
@@ -32,7 +34,11 @@ public class GameManager : MonoBehaviour
         {
             Instance = this;
         }
+    }
+    private void Start()
+    {
         health = maxHealth;
+        uiLevelUp.Select(0);
     }
     public void GetExp(int exp)
     {
@@ -42,6 +48,18 @@ public class GameManager : MonoBehaviour
             nextExp = Mathf.RoundToInt(nextExp * 1.2f);
             this.exp = 0;
             level++;
+            uiLevelUp.Show();
         }
+    }
+    public void Stop()
+    {
+        isLive = false;
+        Time.timeScale = 0;
+    }
+    public void Resume()
+    {
+        isLive = true;
+        Time.timeScale = 1;
+
     }
 }

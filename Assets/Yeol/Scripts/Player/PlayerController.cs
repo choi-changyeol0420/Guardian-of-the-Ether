@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D playerRb;
     public Vector2 moveInput;
     private Animator animator;
+    public SpriteRenderer[] weapons;
 
     public Scanner scanner;
     #endregion
@@ -21,11 +22,13 @@ public class PlayerController : MonoBehaviour
     }
     private void FixedUpdate()
     {
+        if (!GameManager.Instance.isLive) return;
         Vector2 nextVec = moveInput.normalized * moveSpeed * Time.fixedDeltaTime;
         playerRb.MovePosition(playerRb.position + nextVec);
     }
     void OnMove(InputValue value)
     {
+        if (!GameManager.Instance.isLive) return;
         moveInput = value.Get<Vector2>();
         bool isMoving = moveInput.sqrMagnitude > 0.01f;
         animator.SetBool("IsMove", isMoving);

@@ -10,7 +10,6 @@ public class Staff : WeaponSpawner
         base.Init(data);
         speed = 1f;
     }
-
     public override void WeaponUpdate()
     {
         timer += Time.deltaTime;

@@ -42,6 +42,7 @@ public class EnemyController : MonoBehaviour,IDamageable
     }
     private void FixedUpdate()
     {
+        if (!GameManager.Instance.isLive) return;
         if (player == null || isDie) return;
         Vector2 direction = (player.position - enemyRb.position).normalized;
         Vector2 nextVec = direction * moveSpeed * Time.fixedDeltaTime;

@@ -5,7 +5,7 @@ public class Gear : MonoBehaviour
 {
     public ItemData.ItemType type;
     public float rate;
-    private WeaponSpawner[] weapons;
+    [HideInInspector]public WeaponSpawner[] weapons;
     public void Init(ItemData data)
     {
         name = "Gear" + data.itemId;
@@ -14,17 +14,19 @@ public class Gear : MonoBehaviour
 
         type = data.itemType;
         rate = data.baseDamage;
+        StartCoroutine(delayWeapon());
         
-        ApplyGear();
     }
     public void LevelUp(float rate)
     {
         this.rate = rate;
+        ApplyGear();
     }
     IEnumerator delayWeapon()
     {
         yield return new WaitForSeconds(0.3f);
         weapons = FindObjectsByType<WeaponSpawner>(FindObjectsSortMode.None);
+        ApplyGear();
     }
     void ApplyGear()
     {
@@ -45,29 +47,16 @@ public class Gear : MonoBehaviour
     {
         if(weapons.Length > 0)
         {
-            switch (weapons.Length)
-            {
-                case 0:
-                    weapons[0].speed += 150 * rate;
-                    break;
-                case 1:
-                    weapons[1].speed -= rate / 50;
-                    break;
-            }
+            weapons[0].speed += 150 * rate;
+            weapons[1].speed -= 0.015f;
         }
     }
     void SpeedUp()
     {
-        float speed = 1;
-        GameManager.Instance.player.moveSpeed = speed + speed * rate;
+        GameManager.Instance.player.moveSpeed += rate;
     }
     void HealthUp()
     {
-        float health = 10;
-        GameManager.Instance.maxHealth += Mathf.RoundToInt(health);
-    }
-    private void Start()
-    {
-        StartCoroutine(delayWeapon());
+        GameManager.Instance.maxHealth += Mathf.RoundToInt(rate);
     }
 }

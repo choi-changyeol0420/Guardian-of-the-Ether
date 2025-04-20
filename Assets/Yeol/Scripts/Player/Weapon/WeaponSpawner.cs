@@ -20,6 +20,7 @@ public abstract class WeaponSpawner : MonoBehaviour
         //Basic Set
         name = "Weapon" + data.itemId;
         transform.parent = player.transform;
+        transform.localScale = new Vector3(0.7f, 0.7f, 0.7f);
         transform.localPosition = Vector3.zero;
         //Property Set
         damage = data.baseDamage;

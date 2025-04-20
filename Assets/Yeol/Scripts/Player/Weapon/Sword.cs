@@ -14,10 +14,6 @@ public class Sword : WeaponSpawner
     public override void WeaponUpdate()
     {
         transform.Rotate(Vector3.back * speed * Time.deltaTime);
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            LevelUp(5, 1);
-        }
     }
 
     public override void LevelUp(float damage, int count)
@@ -25,7 +21,7 @@ public class Sword : WeaponSpawner
         base.LevelUp(damage, count);
         // count가 5 이상이면 다시 2로 초기화하고 초과된 오브젝트 비활성화
         if (GameManager.Instance.weapons[0].Sprites.Length < level) return;
-        if (this.count >= 6)
+        if (this.count >= 7)
         {
             level++;
             this.count = 2;
@@ -81,7 +77,7 @@ public class Sword : WeaponSpawner
 
             Vector3 rotVec = Vector3.forward * 360f * i / count;
             sword.Rotate(rotVec);
-            sword.Translate(sword.up * 0.4f, Space.World);
+            sword.Translate(sword.up * 0.6f, Space.World);
 
             sword.GetComponent<Weapon>().Init(damage, -1, Vector3.zero); // -1 = 무한 지속
         }
