@@ -77,7 +77,7 @@ public class EnemyController : MonoBehaviour,IDamageable
             coll.enabled = false;
             enemyRb.simulated = false;
             animator.SetInteger("State", 4);
-            GameManager.Instance.kill++;
+            GameManager.Instance.OnEnemyKill();
             GameManager.Instance.GetExp(exp);
         }
     }

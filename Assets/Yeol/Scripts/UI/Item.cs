@@ -36,7 +36,7 @@ public class Item : MonoBehaviour
         textName = texts[1];
         textDesc = texts[2];
         textName.text = data.itemName;
-        textlevel.text = "Lv." + (level + 1);
+        textlevel.text = "Lv." + level;
         switch((int)data.itemType)
         {
             case 0:
@@ -45,6 +45,15 @@ public class Item : MonoBehaviour
                 float curve = Mathf.Pow(level, 1.1f);
                 nextDamage += Mathf.RoundToInt(data.baseDamage + linear + curve);
                 textDesc.text = string.Format(data.itemDesc, nextDamage, 1);
+                if (level % 5 == 0)
+                {
+                    switch ((int)data.itemType)
+                    {
+                        case 0:
+                            textDesc.text = string.Format(data.itemDesc, nextDamage, 1) + "업그레이드 시 회전체 2로 감소";
+                            break;
+                    }
+                }
                 break;
             case 2:
             case 3:
@@ -52,7 +61,7 @@ public class Item : MonoBehaviour
                 textDesc.text = data.itemDesc;
                 break;
             case 4:
-                textDesc.text = $"연사 속도 검 : 0.6% 증가, 스태프 : 1.5% 증가";
+                textDesc.text = data.itemDesc;
                 break;
         }
     }

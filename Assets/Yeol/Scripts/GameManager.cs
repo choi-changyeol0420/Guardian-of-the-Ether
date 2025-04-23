@@ -7,6 +7,14 @@ public class WeaponSprite
     public string weaponName;
     public Sprite[] Sprites;
 }
+[System.Serializable]
+public class DungeonFloor
+{
+    public int floorIndex;
+    public int killTarget;
+    public int currentKills;
+    public bool isCleared;
+}
 public class GameManager : MonoBehaviour
 {
     #region Variables
@@ -14,19 +22,24 @@ public class GameManager : MonoBehaviour
     public int enemyLevel;
     [Header("# Player Info")]
     public bool isLive;
-    public int health;
-    public int maxHealth = 100;
+    public float health;
+    public float maxHealth = 100;
     public int level;
-    public int kill;
     public int exp;
     public int nextExp = 30;
     [Header("# Game Object")]
     public PoolManager pool;
     public PlayerController player;
 
-    //Weapon
+    [Header("# Weapon")]
     public List<WeaponSprite> weapons;
     public LevelUp uiLevelUp;
+
+    [Header("# Dungeon")]
+    public List<DungeonFloor> floors;
+    public int floorIndex;
+
+    public DungeonFloor CurrentFloor => floors[floorIndex];
     #endregion
     private void Awake()
     {
@@ -62,4 +75,25 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
 
     }
+    public void OnEnemyKill()
+    {
+        var floor = CurrentFloor;
+        if (floor.isCleared) return;
+        floor.currentKills++;
+        if(floor.currentKills >= floor.killTarget)
+        {
+            floor.isCleared = true;
+            Debug.Log("클리어!");
+            // 방치형 시스템 활성화
+        }
+    }
+    public void GoToNextFloor()
+    {
+        if (floorIndex + 1 < floors.Count) floorIndex++;
+    }
+    public void GoToPreviousFloor()
+    {
+        if (floorIndex - 1 >= 0) floorIndex--;
+    }
+    public bool CanAutoBattle => CurrentFloor.isCleared;
 }

@@ -47,7 +47,11 @@ public class Gear : MonoBehaviour
     {
         if(weapons.Length > 0)
         {
-            weapons[0].speed += 150 * rate;
+            if (weapons[0] != null)
+            {
+                weapons[0].speed += 150 * rate;
+            }
+            if (weapons.Length < 2) return;
             weapons[1].speed -= 0.015f;
         }
     }

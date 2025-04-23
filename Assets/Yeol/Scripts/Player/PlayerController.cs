@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 1f;
     private Rigidbody2D playerRb;
     public Vector2 moveInput;
-    private Animator animator;
+    public Animator animator;
     public SpriteRenderer[] weapons;
 
     public Scanner scanner;
@@ -28,7 +28,6 @@ public class PlayerController : MonoBehaviour
     }
     void OnMove(InputValue value)
     {
-        if (!GameManager.Instance.isLive) return;
         moveInput = value.Get<Vector2>();
         bool isMoving = moveInput.sqrMagnitude > 0.01f;
         animator.SetBool("IsMove", isMoving);
@@ -37,6 +36,19 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetFloat("MoveX", moveInput.x);
             animator.SetFloat("MoveY", moveInput.y);
+        }
+    }
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (!GameManager.Instance.isLive) return;
+        GameManager.Instance.health -= Time.deltaTime * 10;
+        if(GameManager.Instance.health < 0)
+        {
+            for(int i = 2; i < transform.childCount; i++)
+            {
+                transform.GetChild(i).gameObject.SetActive(false);
+            }
+
         }
     }
 }
